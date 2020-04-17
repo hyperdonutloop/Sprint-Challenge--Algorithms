@@ -5,7 +5,7 @@
 a) The running time would be 0(n) because the while loop runs an 'n' number of times. 
 
 
-b) There are too loops going here. 'n' is having to be calculated twice, so the time doubles? If n is doubling the time to perform doubles. So it would be 0(n log(n))
+b) There are two loops going here. 'n' is having to be calculated twice, so the time doubles? If n is doubling the time to perform doubles. So it would be 0(n log(n))
 
 
 c) this would be O(n) because it is running ONE time for EACH value of bunnies. 

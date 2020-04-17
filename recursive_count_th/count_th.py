@@ -10,6 +10,8 @@ def count_th(word):
     # check the word two letters at a time
     # 0:2 - 0 starts at the left of the word, then moves over. 2 is between letter 2 and 3. 
     elif word[0:2] == 'th':
+        # if the two letters are th then the counter increments by 1, continuing on the rest of the word
         return count_th(word[1:]) + 1
     else:
+        # if no th is found on the first run, then start at the next index and keep going
         return count_th(word[1:])
